@@ -1,0 +1,300 @@
+h1{
+	color: blue;
+}
+h2{
+	font-size: 14px;
+}
+p{
+	margin-left: 120px;
+	clear: both;
+	overflow: hidden;
+}
+p.b_y{
+	margin-left: auto;
+	font-size: 12px;
+	color: yellow;
+	background-color: #000;
+}
+img{
+	border: 2px solid  red;
+	
+}
+.m1{
+	width: 960px;
+	height: 100px;
+	background-color: red;
+	margin: 0 auto;
+}
+.m2{
+	width: 960px;
+	height: 100px;
+	background-color: red;
+	margin: 0 auto;
+}
+.m3{
+	text-align: center;
+	margin-top: 10px;
+}
+.b1,.b2,.b3,.b4,.b1b,.b2b,.b3b,.b4b,.b{display:block;overflow:hidden;}
+.b1,.b2,.b3,.b1b,.b2b,.b3b{height:1px;}
+.b2,.b3,.b4,.b2b,.b3b,.b4b,.b{border-left:1px solid #999;border-right:1px solid #999;}
+.b1,.b1b{margin:0 5px;background:#999;}
+.b2,.b2b{margin:0 3px;border-width:2px;}
+.b3,.b3b{margin:0 2px;}
+.b4,.b4b{height:2px;margin:0 1px;}
+.d1{background:#F7F8F9;}
+.k {height:100px;}
+.wrap{width: 200px;
+	margin: 20px auto;
+	text-align: center;
+}
+.r_1{
+	margin-left: 200px;
+	background-color: red;
+	width: 200px;
+	height: 100px;
+	float: left;
+}
+.b_1{
+	background-color: blue;
+	height: 100px;
+	margin-left:400px ;
+
+}
+.r_2{
+	background-color: red;
+	width: 600px;
+	height: 100px;
+	margin-left: 200px;
+	top: 0;
+	left: 0;
+}
+.b_2{
+	margin:0;
+	height: 200px;
+	background: blue;
+}
+.rr1{
+	height: 100px;
+	width: 200px;
+	background-color: red;
+	position: absolute;
+	top:1355px;
+	left: 0;
+}
+.bb1{
+	height: 100px;
+	background-color: blue;
+	margin-left: 200px;
+	margin-right: 200px;
+
+}
+.yy1{
+	height: 100px;
+	width:200px;
+	background-color: yellow;
+	position: absolute;
+	top: 1355px;
+	right: 0;
+
+}
+
+.rr2{
+	height: 100px;
+	width: 200px;
+	background-color: red;
+	top:10px;
+}
+.bb2{
+	height: 100px;
+	background-color: blue;
+	margin-left: 200px;
+	left: 100px;
+
+}
+.yy2{
+	height: 100px;
+	width:200px;
+	background-color: yellow;
+	margin-right: 0;
+	top:0;
+
+}
+.wrap1{
+	margin-top: 10px;
+	position: relative;
+}
+body{
+	margin:0;
+	padding: 0;
+}
+
+/*#left,
+#right {
+float: left;
+width: 220px;
+height: 200px;
+background: blue;
+}
+        
+#right{
+float: right;
+}
+        
+#main {
+margin: 0 230px;
+background: red;
+height: 200px;
+
+}*/
+
+#left {
+ float: left;
+ margin: 0 0 0 -296px;
+ width: 50%;
+ background: orange;
+ }
+ #right {
+ margin: 0 0 0 -296px;
+ float: left;
+ width: 50%;
+ background: orange;
+ }
+ 
+#main {
+ width: 592px;
+ float: left;
+ background: green;
+ }
+ 
+ .inner {
+ padding: 20px;
+ }
+ 
+ #left .inner,
+ #right .inner {
+ margin: 0 0 0 296px;
+ background: orange;
+ }
+
+.redInner{
+	background: red;
+	float: left;
+	margin: 20px;
+	width: 120px;
+	height: 80px;
+
+}
+.blueOutter{
+	margin-left: 20px;
+	margin-top: 20px;
+	background: blue;
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+}
+.aside{
+	float: left;
+	width: 150px;
+	height: 150px;
+	background: red;
+	margin-top: 10px;
+}
+.main{
+	margin-top: 10px;
+	height: 200px;
+	background: blue;
+	overflow: hidden;
+}
+
+.div_a{
+	background: red;
+	height: 30px;
+	margin-top: 20px;
+	float: left;
+	width: 50px;
+}
+.div_b{
+	background: blue;
+	height: 30px;
+	overflow: hidden;
+	margin-top: 20px;
+}
+.div_c{
+	background: yellow;
+	height: 30px;
+}
+
+#father{
+	position: relative;
+	margin-top: 20px;
+	margin-bottom: 50px;
+}
+
+.div_a1{
+	background: red;
+	height: 30px;
+	float: left;
+	width: 50px;
+}
+.div_b1{
+	background: blue;
+	height: 30px;
+	overflow: hidden;
+	margin-top: 20px;
+}
+.div_c1{
+	background: yellow;
+	height: 30px;
+
+}
+
+#cc{
+	background: red;
+	margin-top: 20px;
+	position: absolute;
+	top: 10px;
+
+}
+
+#vv{
+	background: yellow;
+	margin-top: 30px;
+	margin-left: 20px;
+	margin-bottom: 20px;
+}
+#mm{
+	background: orange;
+	margin-top: 20px;
+	margin-left: 20px;
+}
+#bb{
+	background: green;
+	width: 100px;
+	height: 100px;
+	position: relative;
+	overflow: hidden;
+	margin-top: 30px;
+}
+
+#bfc{
+	overflow: hidden;
+}
+
+.dd,.gg{
+	float: left;
+	background: red;
+	width: 300px;
+	height: 100px;
+}
+
+.ff{
+	height: 100px;
+	background: blue;
+	overflow: hidden;
+}
+
+.gg{
+	float: right;
+	margin-top: -100px;
+}

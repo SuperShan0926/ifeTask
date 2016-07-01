@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>task001</title>
+	<link rel="stylesheet" type="text/css" href="./task0001.css">
+</head>
+<body>
+	<h1>SuperShan0926</h1>
+	<ul>
+		<li><a href="https://github.com/SuperShan0926">Homepage</a></li>
+		<li><a href="https://www.baidu.com">Blog</a></li>
+	</ul>
+	<h2>这是一个二级标题</h2>
+	<p class="b_y">这是一个文字段落</p>
+	<img src="./0001.png">
+	<p>使用0 auto</p>
+	<div class="m1"></div>
+	<p>父包裹层设置textalign-center</p>
+	<div class="m3">
+	<div class="m2"></div>
+	</div>
+	<div class="wrap">
+	  <div class="b1"></div>
+	  <div class="b2 d1"></div>
+	  <div class="b3 d1"></div>
+	  <div class="b4 d1"></div>
+	  <div class="b d1 k">Content goes here</div>
+	  <div class="b4b d1"></div>
+	  <div class="b3b d1"></div>
+	  <div class="b2b d1"></div>
+	  <div class="b1b"></div>
+	</div>
+		<p>两列布局1 margin和浮动实现</p>
+		<div class="r_1"></div>
+		<div class="b_1"></div>	
+
+		<p>两列布局2 ov-h触发BFC</p>
+			 <div class="aside"></div>
+	 		 <div class="main"></div>
+
+		<p>三列布局1 绝对定位，左右设置左右浮动，中间设置左右margin</p>
+
+<!-- <div id="left">left </div>
+<div id="right">right</div>
+<div id="main">main</div> -->
+
+<!-- 牛逼的做法！ -->
+<p>三列布局2 利用负margin属性，三列浮动，左右列父层div设置50%（假设300px）宽度均左移300px，
+中间列设置宽度300*2，然后左右子层div右移动300px还原到原位置，实际长度
+600+600+300 = 1500，因为右列左margin导致中间列被盖住了一块
+</p>
+
+<div id="left">
+ <div class="inner">this is left sidebar content</div>
+ </div>
+ <div id="main">
+ <div class="inner">this is main content</div>
+ </div>
+ <div id="right">
+ <div class="inner">this is right siderbar content</div>
+
+ </div>
+  <p>浮动布局，红色容器中每一行的蓝色容器数量随着浏览器宽度的变化而变化 </p>
+	 <div class="blueOutter">
+		 <div class="redInner"></div>
+		 <div class="redInner"></div>
+		 <div class="redInner"></div>
+		 <div class="redInner"></div>
+		 <div class="redInner"></div>
+		 <div class="redInner"></div>
+		 <div class="redInner"></div>
+		 <div class="redInner"></div>
+		 <div class="redInner"></div>
+	 </div>
+<p>这里使用浮动</p>
+	<div class="div_a"></div>
+	<div class="div_b"></div>
+	<div class="div_c"></div>
+<p>这里使用绝对定位 father层设置相对定位给绝对定位找基准位置</p>
+	<div id="father">
+		<div class="div_a1"></div>
+		<div class="div_b1"></div>
+		<div class="div_c1"></div>
+	</div>
+	<div id="bb">
+		<div id="cc">ccc</div>
+			<div id="vv">vvv</div>
+			<div id="mm">mmm</div>
+	</div>
+
+	<div class="dd">dd</div>
+	<div class="ff">ff</div>
+	<div class="gg">gg</div>
+</body>
+</html>
