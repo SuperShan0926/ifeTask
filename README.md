@@ -17,20 +17,14 @@
 
 ####BFC有以下特性：
 
-1.内部的Box会在垂直方向，从顶部开始一个接一个地放置。
-2.Box垂直方向的距离由margin决定。属于同一个BFC的两个相邻Box的margin会发生叠加
-3.每个元素的margin box的左边， 与包含块border box的左边相接触(对于从左往右的格式化，否则相反)。即使存在浮动也是如此。
-4.BFC的区域不会与float box叠加。
-5.BFC就是页面上的一个隔离的独立容器，容器里面的子元素不会影响到外面的元素，反之亦然。
-6.计算BFC的高度时，浮动元素也参与计算。
+1.内部的Box会在垂直方向，从顶部开始一个接一个地放置。  2.Box垂直方向的距离由margin决定。属于同一个BFC的两个相邻Box的margin会发生叠加  3.每个元素的margin box的左边， 与包含块border box的左边相接触(对于从左往右的格式化，否则相反)。即使存在浮动也是如此。  4.BFC的区域不会与float box叠加。
+  5.BFC就是页面上的一个隔离的独立容器，容器里面的子元素不会影响到外面的元素，反之亦然。
+  6.计算BFC的高度时，浮动元素也参与计算。
 
 ####触发BFC的条件:
 
-1.float 除了none以外的值
-2.overflow 除了visible 以外的值（hidden，auto，scroll ）
-3.display (table-cell，table-caption，inline-block, flex, inline-flex)
-4.position值为（absolute，fixed）
-5.fieldset元素
+1.float 除了none以外的值。  2.overflow 除了visible 以外的值（hidden，auto，scroll）
+  3.display (table-cell，table-caption，inline-block, flex, inline-flex)  4.position值为（absolute，fixed）  5.fieldset元素
 
 ####实际应用：
 
@@ -96,8 +90,7 @@ p{
 如下自适应红蓝浮动布局。
 
 
-**个人的一点理解**：一个父层div由子层div撑开时，子层设置margintop
-并不会导致其距离父层顶端一定距离，因为父层由子层撑开，而当父层设置ov——h会创建BFC，独立上下文，此时子层margin－top有效，而子层和父层对应同级作用域的块会有margin重叠，但是子层和父层又有margin－top距离，所以忽略父层看子层div和父层同级块的距离变大了，这就是为什么上面例子解决了margin重叠的原理。
+个人的一点理解：一个父层div由子层div撑开时，子层设置margintop并不会导致其距离父层顶端一定距离，因为父层由子层撑开，而当父层设置ov——h会创建BFC，独立上下文，此时子层margin－top有效，而子层和父层对应同级作用域的块会有margin重叠，但是子层和父层又有margin－top距离，所以忽略父层看子层div和父层同级块的距离变大了，这就是为什么上面例子解决了margin重叠的原理。
 ---
 
 ###2.三列布局
