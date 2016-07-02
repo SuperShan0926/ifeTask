@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>flyWings</title>
+	<style type="text/css">
+	body{
+		margin:0;
+		padding: 0;
+	}
+		.grid{
+			width: 100%;
+			overflow: hidden;
+		}
+		.main{
+			float: left;
+			width: 100%;
+			background: #FFF;
+			min-height: 30px;
+		}
+		.sub{
+			float: left;
+			width: 200px;
+			margin: 0 0 0 -100%;
+			background: green;
+			min-height: 30px;
+		}
+		.extra{
+			float: left;
+			background: blue;
+			min-height: 30px;
+			width: 200px;
+			margin: 0 0 0 -200px;
+		}
+		
+		.main-col{
+			margin:0 210px;
+			background: orange;
+			min-height: 30px;
+		}
+		#testMargin{
+			margin-top: 300px;
+			background: green;
+			overflow: hidden;
+		}
+	</style>
+</head>
+<body>
+	<div class="grid">
+		<div class="main">
+			<div class="main-col">现身!</div>
+		</div>
+		<div class="sub">子列</div>	
+		<div class="extra">附加列</div>
+	</div>
+</body>
+</html>
