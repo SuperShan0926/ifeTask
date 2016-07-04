@@ -1,0 +1,303 @@
+body{
+	margin: 0;
+	padding: 0;
+	background: #eee;
+}
+
+a{
+	color: #FFF;
+}
+
+#header{
+	position: fixed;
+	background: purple;
+	overflow: hidden;
+	height: 80px;
+	width: 100%;
+	top: 0;
+	z-index: 100000;
+}
+
+
+#clearflex{
+	clear: both;
+}
+
+#footer{
+	background: #000;
+	height: 400px;
+	overflow: hidden;
+	clear: both;
+	position: relative;
+}
+
+#wrap-footer{
+	overflow: hidden;
+}
+
+#footer #classify{
+	text-align: center;
+	-webkit-margin-before: 0;
+    -webkit-margin-after: 0;
+    -webkit-margin-start: 0;
+    -webkit-padding-start: 0;
+	border-bottom: 1px solid grey;
+	height: 45px;
+}
+
+#footer #classify li{
+	display: inline-block;
+	height: 45px;
+	margin: 0 15px;
+
+}
+
+#footer #classify li a{
+	text-decoration: none;
+	line-height: 45px;
+	font-size: 14px;
+}
+
+.f-content{
+	float: left;
+	width: 15%;
+	padding-left: 5%; 
+}
+
+.f-content ul{
+	list-style-type: disc;
+    -webkit-margin-before: 0;
+    -webkit-margin-after: 0;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+    -webkit-padding-start: 0;
+}
+
+.f-content li{
+	display: block;
+}
+
+.f-content .header{
+	display: block;
+	margin:40px 0 30px 0;
+}
+
+.f-content .header a,.f-content li a{
+	display: inline-block;
+	margin-bottom: 10px;
+	font-size: 10px;
+}
+
+.f-content .header a{
+	color: gray;
+	font-family: 'SimSun';
+}
+
+
+#dutyInfo{
+	width: 80px;
+	margin: 30px auto 10px;
+	text-align: center;
+	color: #FFF;
+}
+
+#footer #logo{
+	width: 30px;
+	margin: 0 auto;
+}
+
+#footer img{
+	position: absolute;
+	bottom: 0;
+}
+#header-nav{
+	width: 980px;
+	margin:0 auto;
+	overflow: hidden;
+}
+
+#header-nav img{
+	position: absolute;
+	right: 10px;
+	top:45px;
+}
+
+#header-ul{
+	-webkit-padding-start: 0;
+	margin:0px;
+	width: 100%;
+	height: 80px;
+}
+#header-ul .logo{
+	float: left;
+	list-style: none;
+}
+#header-ul .logo a{
+	color: #FFF;
+	text-decoration: none;
+	font-size: 28px;
+	line-height: 80px;
+}
+#header-ul .menu{
+	list-style: none;
+	float: right;
+	display: inline-block;
+	margin:50px 0 0 0;
+}
+
+#header-ul .menu a{
+	color: #FFF;
+	text-decoration: none;
+	padding: 0 0 0 28px ;
+	display: inline-block;
+	line-height: 30px;
+	font-size: 14px;
+}
+
+#container{
+	width: 980px;
+	margin: 100px auto 0;
+	min-height: 500px;
+}
+
+#container #left,#container #right{
+	min-height: 400px;
+	width: 650px;
+	float: left;
+}
+
+#container #right{
+	width: 320px;
+	margin-left: 10px;
+}
+
+#container #left .content{
+	height: 400px;
+	background: #FFF;
+	margin: 10px 0;
+	padding:20px 20px;
+	position: relative;
+}
+
+#container #left .content h2{
+	color: rgb(0,120,180);
+}
+
+#container #left .content h3{
+	font-style: 12px;
+	color: #666;
+}
+
+#container #left .content p{
+	margin-top: 30px;
+}
+
+#container #left .content .classify{
+	position: absolute;
+	width: 40px;
+	text-align:center;
+	left: -40px;
+	top: 20px;
+}
+
+#container #left .content .classify h4{
+	margin: 0;
+	background:#DA70D6;
+	height:30px;
+	line-height: 30px;
+	color: #FFF;
+	font-weight:normal;
+	font-size: 14px;
+}
+
+#container #left .content .classify .time{
+	background: purple;
+}
+#container #left #bottom-nav{
+	margin:30px 10px;
+	text-align: center;
+
+}
+#container #left #bottom-nav button{
+	border:none;
+	background: #FFF;
+	margin-right: 10px;
+	text-align: center;
+	padding: 10px;
+	font-size: 1px;
+	color: grey;
+
+}
+#container #left #bottom-nav .nav{
+	width:60px;
+}
+#container #left #bottom-nav .page{
+	width: 40px;
+}
+
+#container #right .sidebar{
+	padding: 0;
+	background: #FFF;
+	min-height: 80px;
+	margin: 10px 0;
+	text-align: center;	
+	position: relative;
+}
+
+#container #right .sidebar input{
+	height: 30px;
+	margin: 23px 0;
+	padding :0;
+	width: 240px;
+}
+
+#container #right .sidebar button{
+	border-radius: 0;
+	border:none;
+	margin: 0;
+	height: 34px;
+	color: white;
+	margin:25px 0 0 -38px;
+	width: 34px;
+	padding: 0;
+}
+
+#container #right .sidebar h4{
+	color:#1E90FF;
+	text-align: left;
+	margin: 0;
+	padding:10px;
+	border-bottom: 1px solid #eee;
+	border-left: 5px solid #DDA0DD;
+	height: 45px;
+	line-height: 45px;
+	font-size: 1.3em;
+}
+
+#container #right .sidebar .selected{
+		border-left: 5px solid purple;
+}
+
+#container #right .sidebar a{
+	margin: 0 auto;
+	width: 166.06px;
+	padding:10px;
+	display: block;
+	color: grey;
+	word-spacing: 10px;
+	text-align: left;
+}
+#container #right .sidebar #year{
+	text-align: center;
+	word-spacing: 25px;
+}
+#container #right .intro{padding:10px; color: grey;text-align: left;}
+#container #right .sidebar p{
+	text-align: left;
+	margin: 10px 30px;
+	color:purple;
+}
+
+#container #right span{
+	font-size: 1.5em;
+}
